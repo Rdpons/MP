@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Developer's Portfolio">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-800 text-gray-200 font-sans">
+    <header class="bg-gray-900 shadow">
+        <nav class="container mx-auto p-8 text-center bg-gray-900">
+            <h1 class="text-left font-bold text-3xl text-gray-200">CampomanesSite</h1>
+            <ul class="inline-flex space-x-8 text-xl">
+                <li><a href="index.html" class="text-gray-200 hover:text-gray-500">Home</a></li>
+                <li><a href="about.html" class="text-gray-200 hover:text-gray-500">About</a></li>
+                <li><a href="portfolio.html" class="text-gray-200 hover:text-gray-500">Portfolio</a></li>
+                <li><a href="contact.html" class="text-gray-200 hover:text-gray-500">Contact</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <!-- Projects Section -->
+    <section id="projects" class="container mx-auto my-12 p-8">
+        <div class="text-center mb-8">
+            <h1 class="text-4xl font-bold text-gray-200">Portfolio</h1>
+            <p class="text-gray-200 mt-4">Showcasing my recent work and accomplishments.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mt-20">
+            <!-- Project Card -->
+            <div class="bg-gray-800 p-4 rounded-lg shadow-lg  transform transition-transform duration-300 ease-in-out hover:scale-110">
+                <img src="../images/wast.ed_picture.jpg" alt="Wast.Ed Mobile App" class="mb-4 w-64 h-auto mx-auto">
+                <h2 class="text-xl font-bold text-gray-200">Wast.ed</h2>
+                <p class="text-gray-200 mt-2">
+                    Wast.ed is a mobile application for waste segregation and collection developed by my group for our Capstone Project.
+                </p>
+                <div class="mt-4 p-2 rounded-lg text-blue-400 shadow-md inline-flex justify-center">
+                    <ul class="flex space-x-8 list-none p-1 m-0">
+                        <li>React Native</li>
+                        <li>Nativewind</li>
+                        <li>Node.js</li>
+                        <li>Firebase</li>
+                    </ul>
+                </div>                            
+            </div>
+            <div class="bg-gray-800 p-4 rounded-lg shadow-lg  transform transition-transform duration-300 ease-in-out hover:scale-110">
+                <img src="../images/sysarch_picture.jpg" alt="Wast.Ed Mobile App" class="mb-4 w-auto h-64 mx-auto">
+                <h2 class="text-xl font-bold text-gray-200">CCS Sit-in Monitoring System</h2>
+                <p class="text-gray-200 mt-2">
+                    CCS Sit-in Monitoring System is a sit-in monitoring website designed for students who want to reserve and use the lab ahead of time, featuring reservation functionality.
+                    It is a project I made for my Systems Architecture subject.
+                </p>
+                <div class="mt-4 p-2 rounded-lg text-blue-400 shadow-md inline-flex justify-center">
+                    <ul class="flex space-x-16 list-none p-1 m-0">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>PHP</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-200 py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 CampomanesSite. All rights reserved.</p>
+            <p class="mt-2">
+                <a href="#" class="text-gray-200 hover:text-gray-500">Privacy Policy</a> |
+                <a href="#" class="text-gray-200 hover:text-gray-500">Terms of Service</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
